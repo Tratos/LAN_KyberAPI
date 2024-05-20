@@ -20,7 +20,7 @@ namespace LANKyberAPI
         public static bool basicMode = Globals.basicMode;
         public static readonly object _sync = new object();
         public static bool _exit;
-        public static bool box = Globals.basicMode;
+        public static bool box;
         public static TcpListener lAPIServer = null;
 
         public static void Start()
